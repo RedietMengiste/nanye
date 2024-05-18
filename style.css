@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  background-image: url("bb.png");
+  background-image: url("i13.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -80,8 +80,8 @@ body {
   background-image: url("cake.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 400px;
-    height: 280px;
+    width: 300px;
+    height: 210px;
     bottom: 20px;
     left: -30px;
 

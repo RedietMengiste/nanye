@@ -1,9 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   const cake = document.querySelector(".cake");
-  //play audio when document loads and if page reloads again start song again 
   const audio = new Audio("babe.mp3");
   audio.play();
   audio.loop = true;
+
+
+
 
   const candleCountDisplay = document.getElementById("candleCount");
   let candles = [];
@@ -112,3 +114,4 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
 });
+
