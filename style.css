@@ -4,7 +4,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: scroll;
     
 
 
@@ -109,14 +109,7 @@ body {
   top: 66px;
 } */
 
-/* .icing {
-  top: 2px;
-  left: 5px;
-  background-color: #f0e4d0;
-  width: 340px;
-  height: 90px;
-  border-radius: 50%;
-}
+/* 
 .icing:before {
   content: "";
   position: absolute;
@@ -160,6 +153,19 @@ body {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
 } */
+.song {
+
+  align-items: center;
+  position: absolute;
+    width: 350px;
+    height: 200px;
+    top: 80%;
+    left: 40%;
+    filter:  saturate(10%) contrast(59%) invert(2%) ;
+      width: 200px;
+      height: 30px;
+      
+}
 .text {
   position: absolute;
   color: white;

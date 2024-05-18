@@ -1,9 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
   const cake = document.querySelector(".cake");
-  const audio = new Audio("babe.mp3");
-  audio.play();
-  audio.loop = true;
-
 
 
 
