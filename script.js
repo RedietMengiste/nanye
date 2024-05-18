@@ -66,7 +66,23 @@ document.addEventListener("DOMContentLoaded", function () {
       updateCandleCount();
       
     }
+    //if blow out candels are less than 0, remove all the candle divs from the cake
+//play audio when the candle is blown out and the audio is not playing
+    
+      if (blownOut > 0 && blownOut == candles.length) {
+         const audio = new Audio("babe.mp3"); 
+        console.log(blownOut);
+        console.log(candles.length);
+        if(audio.currentTime == 0){
+          audio.play();
+        }
+       
+       
+      }
+      
+    
   }
+
 
   if (navigator.mediaDevices.getUserMedia) {
     navigator.mediaDevices
@@ -85,4 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
   } else {
     console.log("getUserMedia not supported on your browser!");
   }
+
+  
+  
 });
