@@ -1,11 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
   const cake = document.querySelector(".cake");
+  //play audio when document loads and if page reloads again start song again 
+  const audio = new Audio("babe.mp3");
+  audio.play();
+  audio.loop = true;
+
   const candleCountDisplay = document.getElementById("candleCount");
   let candles = [];
   let audioContext;
   let analyser;
   let microphone;
 
+
+  
   function updateCandleCount() {
     const activeCandles = candles.filter(
       (candle) => !candle.classList.contains("out")
@@ -69,16 +76,16 @@ document.addEventListener("DOMContentLoaded", function () {
     //if blow out candels are less than 0, remove all the candle divs from the cake
 //play audio when the candle is blown out and the audio is not playing
     
-      if (blownOut > 0 && blownOut == candles.length) {
-         const audio = new Audio("babe.mp3"); 
-        console.log(blownOut);
-        console.log(candles.length);
-        if(audio.currentTime == 0){
-          audio.play();
-        }
+      // if (blownOut > 0 && blownOut == candles.length) {
+      //    const audio = new Audio("babe.mp3"); 
+      //   console.log(blownOut);
+      //   console.log(candles.length);
+      //   if(audio.currentTime == 0){
+      //     audio.play();
+      //   }
        
        
-      }
+      // }
       
     
   }
