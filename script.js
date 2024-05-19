@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const left = event.clientX - rect.left;
     const top = (event.clientY - rect.top)-24;
     addCandle(left, top);
+    
   });
 
   function isBlowing() {
