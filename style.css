@@ -1,11 +1,12 @@
 body {
   background-color: #fff;
-  background-image: url("i13.png");
+  background-image: url("bb.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top;
+  background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   overflow-x: hidden;
-  background-attachment: fixed;
+
  
 }
 
